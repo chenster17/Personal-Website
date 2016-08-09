@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body,
 html {
     width: 100%;
@@ -177,9 +171,7 @@ footer {
     background-color: #f8f8f8;
 }
 
-p.copyright {
-    margin: 15px 0 0;
-}
+
 
 .joeycolor {
 background-color: #539b90;
