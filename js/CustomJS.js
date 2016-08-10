@@ -1,7 +1,7 @@
 function move(temp) {
   var vtemp = temp
   var elem = document.getElementById("myBar");
-  var width = 10;
+  var width = 0;
   var id = setInterval(frame, 25);
   function frame() {
     if (width >= vtemp) {
