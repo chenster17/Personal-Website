@@ -5,21 +5,16 @@
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
-
 .flip-container, .front, .back {
 	width: 250px;
 	height: 200px;
 }
-
-/* flip speed goes here */
 .flipper {
 	transition: 1s;
 	transform-style: preserve-3d;
 
 	position: relative;
 }
-
-/* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
 
@@ -27,30 +22,11 @@
 	top: 0;
 	left: 0;
 }
-
-/* front pane, placed above back */
 .front {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
-
-/* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
-}
-.grow {
-
-  height: 49px;
-  width: 0%;
-  margin: 5px 1% 5px 1%;
-  float: left;
-  position: relative;
-  transition: width 0.5s;
-  -webkit-transition: width 0.5s;
-  text-align: center;
-  overflow: hidden;
-}
-.grow:hover {
-  width: 70%;
 }
