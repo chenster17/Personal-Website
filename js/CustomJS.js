@@ -13,3 +13,6 @@ function move(temp) {
     }
   }
 }
+function openIMG(){
+	
+}
